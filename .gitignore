@@ -1,0 +1,52 @@
+# --- Python Basics ---
+__pycache__/
+*.pyc
+
+# --- Virtual Environments ---
+# It's common to name envs 'venv', 'env', or '.venv'
+venv/
+env/
+.venv/
+.env
+
+# --- Data (CRITICAL) ---
+# Never commit large datasets
+data/
+datasets/
+raw_data/
+processed_data/
+*.csv
+*.tsv
+*.json
+*.zip
+*.tar.gz
+
+# --- IDE Settings ---
+# Ignore editor configuration files
+.vscode/
+.idea/
+*.swp
+
+# --- Jupyter Notebooks ---
+.ipynb_checkpoints/
+
+# --- Model Artifacts ---
+# Ignore large saved model weights
+*.pt
+*.pth
+*.h5
+*.keras
+*.ckpt
+models/
+saved_models/
+model_checkpoints/
+
+# --- Logs and Outputs ---
+logs/
+runs/
+results/
+wandb/
+mlruns/
+
+# --- System Files ---
+.DS_Store
